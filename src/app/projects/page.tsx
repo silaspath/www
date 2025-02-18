@@ -11,26 +11,6 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Skill Speed',
-    description: 'Newsletter on tech mastery at the speed of thought',
-    link: { href: 'https://skillspeed.io', label: 'skillspeed.io' },
-    logo: skillspeedLogo,
-  },
-  {
-    name: 'Next.js ATX Meetup',
-    description:
-      'I organize this group in Austin, TX. This site is open-source; feel free to contribute',
-    link: { href: 'https://nextatx.tech', label: 'nextatx.tech' },
-    logo: nextAtxLogo,
-  },
-  {
-    name: 'Emergence Coaching',
-    description:
-      'A sales funnel for my a favorite client of mine. I built this site with Next.js',
-    link: { href: 'https://emergencecoaching.io', label: 'Emergence Coaching' },
-    logo: emergenceLogo,
-  },
-  {
     name: 'VIRTUTEACH',
     description:
       'An LMS platform (Next.js, Clerk). Teachers can create courses with videos (Mux). Students can pay via Stripe.',
@@ -38,11 +18,35 @@ const projects = [
     logo: skillspeedLogo,
   },
   {
+    name: 'Emergence Coaching',
+    description:
+      'A sales funnel for my a favorite client of mine. I built this site with Next.js',
+    link: {
+      href: 'https://emergence-coaching.vercel.app/',
+      label: 'Emergence Coaching',
+    },
+    logo: emergenceLogo,
+  },
+  {
     name: 'GlowDrops',
     description:
       'An enterprise dashboard for a candle company. View revenue and customer orders at a glance (Chart.js).',
     link: { href: 'https://glowdrops.vercel.app', label: 'GlowDrops' },
     logo: skillspeedLogo,
+  },
+  {
+    name: 'Skill Speed',
+    description:
+      'A full stack engineer landing page, with a blog focusing on web dev technology',
+    link: { href: 'https://skillspeed.vercel.app/', label: 'skillspeed.io' },
+    logo: skillspeedLogo,
+  },
+  {
+    name: 'Next.js ATX Meetup',
+    description:
+      'I organize this group in Austin, TX. This site is open-source; feel free to contribute',
+    link: { href: 'https://nextjs-atx.vercel.app/', label: 'nextatx.tech' },
+    logo: nextAtxLogo,
   },
 ]
 

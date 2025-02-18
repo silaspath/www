@@ -12,7 +12,7 @@ import {
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/photos/image-4.jpg'
 
-const header = `I'm Silas Path: a frontier evolutionary visionary; a spiritual creative.`
+const header = `Technology Enthusiast`
 
 export const metadata: Metadata = {
   title: 'About',
@@ -20,11 +20,8 @@ export const metadata: Metadata = {
 }
 
 const description = [
-  'And a teacher, independent researcher, musician, web entrepeneur, UI / UX designer, and lover of people.',
-  "I've played in bands ranging from punk rock to R&B and toured 6 states in a van. I've ran lights production for major EDM artists.",
   'I hold multiple certifications in cloud networks and full stack apps, and I’m currently writing a newsletter on sharing tools for the future of work. I develop and consult on digital real estate.',
-  'I also organize the Next.js ATX Meetup in Austin, TX.',
-  'I am dedicated to the emergence of a new humanity, and to the development and deployment of shared spirituality, which will positivley inform the future of our reality.',
+  'Previously organized the Next.js ATX Meetup in Austin, TX.',
 ]
 
 export default function About() {
