@@ -36,8 +36,8 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I&apos;m Silas Path: a polymath who builds towards a bright future.
-            My free time is spent on reading sci-fi, discovering melodies on the
-            guitar, and walking the beautiful streets of Austin.
+            My free time is spent on reading sci-fi and discovering melodies on the
+            guitar.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
